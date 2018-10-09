@@ -1,0 +1,52 @@
+.background {
+    background-color: white;
+}
+
+.titley {
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img.horizontal {
+    width: 500px;
+}
+
+img.vertical {
+    height: 500px;
+}
+
+.headerbar {
+    background-color: #333;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+ul.headlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1.header {
+    margin: 0;
+    padding: 0;
+    float: left;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+li.navlink {
+    float: right;
+}
+
+li a.navlinktext {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
