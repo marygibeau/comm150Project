@@ -7,14 +7,6 @@
     text-align: center;
 }
 
-img.horizontal {
-    width: 500px;
-}
-
-img.vertical {
-    height: 500px;
-}
-
 .headerbar {
     background-color: #333;
     overflow: hidden;
@@ -30,13 +22,16 @@ ul.headlinks {
     padding: 0;
 }
 
-h1.header {
+.header {
     margin: 0;
-    padding: 0;
+    padding-top: 5px;
+    padding-left: 20px;
     float: left;
     color: white;
     display: block;
     text-align: center;
+    font-size: xx-large;
+    text-decoration: none;
 }
 
 li.navlink {
@@ -49,4 +44,60 @@ li a.navlinktext {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.question {
+    font-size: 300%;
+    text-align: center;
+}
+
+.answerbutton {
+    color: black;
+    background-color: lightgrey;
+    padding: 25px;
+    margin: 10px;
+    border-left: 6px solid blue;
+    }
+    .answerbutton:hover {
+        border-left: 6px solid red;
+        background-color: grey;
+        font-weight: bold;
+    }
+
+.answertext {
+    text-decoration: none;
+    font-weight: inherit;
+    display: inline;
+    font-size: large;
+    color: black;
+    /* padding: 25px;
+    margin: 25px; */
+    /* border: 5px solid red; */
+}
+
+.table {
+	display: table;   
+    margin: 0 auto;
+    /* width: 100%; */
+    /* border: 5px solid black; */
+}
+
+ul.horizontal-list {
+    list-style: none;
+	}
+	ul.horizontal-list li {
+		display: inline;
+    }
+    
+img { 
+    height: 30%;
+    align-content: center;
+    padding-bottom: 5%;
+}
+
+.centeredcontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
